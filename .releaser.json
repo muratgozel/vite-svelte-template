@@ -1,0 +1,9 @@
+{
+  "npm": {
+    "updatePkgJson": true
+  },
+  "github": {
+    "enable": true,
+    "release": true
+  }
+}

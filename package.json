@@ -1,0 +1,33 @@
+{
+  "name": "proposal-app",
+  "version": "0.1.0",
+  "description": "Frontend application development template based on vite and svelte.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "npm install && vite build",
+    "serve": "vite preview"
+  },
+  "author": "Murat Gözel <murat@gozel.com.tr>",
+  "private": true,
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.42",
+    "@vitejs/plugin-legacy": "^1.8.2",
+    "dotenv": "^16.0.0",
+    "got": "^12.0.4",
+    "vite": "^2.9.8"
+  },
+  "dependencies": {
+    "bowser": "^2.11.0",
+    "immer": "^9.0.12",
+    "metapatcher": "^2.1.1",
+    "regionist": "^3.0.1",
+    "store": "^2.0.12",
+    "svelte": "^3.48.0",
+    "svelte-i18n": "^3.4.0",
+    "svelte-notifications": "^0.9.94",
+    "svelte-routing": "^1.6.0",
+    "svelte-select": "^4.4.7",
+    "underscore": "^1.13.3"
+  }
+}

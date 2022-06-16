@@ -1,0 +1,90 @@
+/*@font-face {
+  font-family: 'Montserrat';
+  src: url('/brand/montserrat/black.woff2') format('woff2'),
+      url('/brand/montserrat/black.woff') format('woff');
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/brand/montserrat/bold.woff2') format('woff2'),
+      url('/brand/montserrat/bold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/brand/montserrat/regular.woff2') format('woff2'),
+      url('/brand/montserrat/regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}*/
+
+html {
+  font-family: -apple-system, 'Helvetica Neue', sans-serif;
+}
+
+input, select, textarea {
+  border-radius: 4px;
+  background-color: white;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  height: 42px;
+  padding: 0 16px;
+}
+textarea {
+  height: 80px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+input[required],
+select[required],
+textarea[required] {
+  background-repeat: no-repeat;
+  background-position: top 4px right 4px;
+  background-size: 10px 10px;
+  background-image: url("data:image/svg+xml;utf8,<svg version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' viewBox='0 0 10 10' width='10' height='10'><path fill='rgba(229,54,47,1)' opacity='0.25' d='M5.556,3.187c0,.26.149.322.333.138L7.754,1.46a.556.556,0,0,1,.786.786L6.675,4.111c-.184.184-.122.333.138.333H9.451a.556.556,0,0,1,0,1.112H6.813c-.26,0-.322.149-.138.333L8.54,7.754a.556.556,0,0,1-.786.786L5.889,6.675c-.184-.184-.333-.122-.333.138V9.451a.556.556,0,0,1-1.112,0V6.813c0-.26-.149-.322-.333-.138L2.246,8.54a.556.556,0,0,1-.786-.786L3.325,5.889c.184-.184.122-.333-.138-.333H.549a.556.556,0,0,1,0-1.112H3.187c.26,0,.322-.149.138-.333L1.46,2.246a.556.556,0,0,1,.786-.786L4.111,3.325c.184.184.333.122.333-.138V.549a.556.556,0,0,1,1.112,0Z' /></svg>") !important;
+}
+
+[data-style="input-block"] {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+}
+[data-style="input-block"] label {
+  display: block;
+  padding-bottom: 4px;
+}
+
+[data-style="btn-stroke-green"], [data-style="btn-stroke-red"], [data-style="btn-blue"] {
+  height: 30px;
+  font-size: 1em;
+  line-height: 1.8em;
+  padding: 6px 16px;
+  border: 1px solid #ADCF83;
+  border-radius: 4px;
+  color: #ADCF83;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+[data-style="btn-stroke-green"]:hover, [data-style="btn-stroke-red"]:hover {
+  filter: brightness(1.1);
+}
+[data-style="btn-stroke-green"]:active, [data-style="btn-stroke-red"]:active {
+  transform: scale(0.98);
+}
+[data-style="btn-stroke-red"] {
+  border: 1px solid #CE6C6B;
+  color: #CE6C6B;
+}
+[data-style="btn-blue"] {
+  border: none;
+  color: white;
+  background-color: #5F84DD;
+}

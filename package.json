@@ -1,5 +1,5 @@
 {
-  "name": "proposal-app",
+  "name": "vite-svelte-template",
   "version": "0.1.0",
   "description": "Frontend application development template based on vite and svelte.",
   "main": "index.js",

@@ -1,6 +1,6 @@
 {
   "name": "vite-svelte-template",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "description": "Frontend application development template based on vite and svelte.",
   "main": "index.js",
   "scripts": {

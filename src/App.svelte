@@ -6,7 +6,7 @@
   import Home from './lib/routes/Home.svelte';
   import {auth} from './lib/store/auth.js';
 
-  metapatcher.robots('noindex')
+  if (import.meta.env.PROD !== true) metapatcher.robots('noindex')
 
   export let url = '';
 </script>

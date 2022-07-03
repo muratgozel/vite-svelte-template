@@ -1,5 +1,6 @@
 {
   "npm": {
+    "enable": true,
     "updatePkgJson": true
   },
   "github": {
